@@ -9,7 +9,11 @@
 import setuptools
 import cv2_ext
 
-with open("README.md", "r") as fh:
+'''
+pip install -i https://pypi.org/simple/ opencv-utf-8 
+'''
+
+with open("README.md", "r", encoding='utf-8') as fh:
     long_description = fh.read()
 
 setuptools.setup(
