@@ -9,7 +9,7 @@
 import cv2
 import numpy as np
 
-__version__ = '0.0.2'
+__version__ = '0.0.3'
 
 __doc__ = '借助numpy实现opencv读写图像对中文路径的支持。'
 

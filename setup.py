@@ -26,18 +26,15 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/azzhu/opencv-utf-8",
     license='MIT',
+    install_requires=[
+        'numpy'
+    ],
     packages=setuptools.find_packages(),
     project_urls={
         "Source Code": "https://github.com/azzhu/opencv-utf-8",
         "Bug Tracker": "https://github.com/azzhu/opencv-utf-8/issues",
-        "Documentation": "https://github.com/azzhu/opencv-utf-8",  # 待补充修改
+        "Documentation": "https://github.com/azzhu/opencv-utf-8",
     },
-    # entry_points={
-    #     'console_scripts': [
-    #         'easyFlyTracker=easyFlyTracker.cli:_easyFlyTracker',
-    #         # 这里可以继续添加新的命令
-    #     ]
-    # },
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
