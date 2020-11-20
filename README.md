@@ -1,7 +1,7 @@
 
-## Opencv读写文件的路径对utf-8符号（包括中文路径）的支持
+## Opencv读写文件的路径对utf-8（包括中文路径）的支持
 
-**Support opencv read and write image using utf-8 paths.**
+**Support opencv reading and writing image using utf-8 paths.**
 
 ### Install
 
@@ -31,6 +31,6 @@ cv2_ext.imwrite(r'E:\壁纸\pc-twoup-weibu_中文.tif', img)
 ```
 
 
-thanks.
+Thanks.
 
-good luck bro.
+Good luck bro.
