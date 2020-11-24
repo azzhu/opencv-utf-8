@@ -44,20 +44,20 @@ setuptools.setup(
     python_requires='>=3',
 )
 
-if __name__ == '__main__':
-    import os
-    import time
-    import shutil
-
-    # delete cache files
-    shutil.rmtree('dist', ignore_errors=True)
-    shutil.rmtree('build', ignore_errors=True)
-    shutil.rmtree('easyFlyTracker.egg-info', ignore_errors=True)
-
-    time.sleep(0.5)
-    # 1，Generating distribution archives
-    os.system('python setup.py sdist bdist_wheel')
-
-    time.sleep(0.5)
-    # 2，Uploading the distribution archives
-    os.system('twine upload --repository pypi dist/*')
+# if __name__ == '__main__':
+#     import os
+#     import time
+#     import shutil
+#
+#     # delete cache files
+#     shutil.rmtree('dist', ignore_errors=True)
+#     shutil.rmtree('build', ignore_errors=True)
+#     shutil.rmtree('easyFlyTracker.egg-info', ignore_errors=True)
+#
+#     time.sleep(0.5)
+#     # 1，Generating distribution archives
+#     os.system('python setup.py sdist bdist_wheel')
+#
+#     time.sleep(0.5)
+#     # 2，Uploading the distribution archives
+#     os.system('twine upload --repository pypi dist/*')

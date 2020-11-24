@@ -1,5 +1,5 @@
 
-## Opencv读写文件的路径对utf-8（包括中文路径）的支持
+## Opencv读写图像对utf-8路径（包括中文路径）的支持
 
 **Support opencv reading and writing image using utf-8 paths.**
 
